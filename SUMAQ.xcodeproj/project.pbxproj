@@ -7,61 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18A17FC22E7C8414008BE992 /* SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A17FC12E7C8414008BE992 /* SwiftApp.swift */; };
-		18A17FC42E7C8414008BE992 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A17FC32E7C8414008BE992 /* ContentView.swift */; };
-		18A17FC62E7C8418008BE992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A17FC52E7C8418008BE992 /* Assets.xcassets */; };
-		18A17FC92E7C8418008BE992 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A17FC82E7C8418008BE992 /* Preview Assets.xcassets */; };
-		18A17FD32E7C8419008BE992 /* SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A17FD22E7C8419008BE992 /* SwiftTests.swift */; };
-		18A17FDD2E7C8419008BE992 /* SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A17FDC2E7C8419008BE992 /* SwiftUITests.swift */; };
-		18A17FDF2E7C8419008BE992 /* SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A17FDE2E7C8419008BE992 /* SwiftUITestsLaunchTests.swift */; };
+		18A77B1A2E7CC6C200032509 /* SUMAQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A77B192E7CC6C200032509 /* SUMAQApp.swift */; };
+		18A77B1C2E7CC6C200032509 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A77B1B2E7CC6C200032509 /* ContentView.swift */; };
+		18A77B1E2E7CC6C300032509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A77B1D2E7CC6C300032509 /* Assets.xcassets */; };
+		18A77B212E7CC6C300032509 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A77B202E7CC6C300032509 /* Preview Assets.xcassets */; };
+		18A77B2B2E7CC6C400032509 /* SUMAQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A77B2A2E7CC6C400032509 /* SUMAQTests.swift */; };
+		18A77B352E7CC6C400032509 /* SUMAQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A77B342E7CC6C400032509 /* SUMAQUITests.swift */; };
+		18A77B372E7CC6C400032509 /* SUMAQUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A77B362E7CC6C400032509 /* SUMAQUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		18A17FCF2E7C8419008BE992 /* PBXContainerItemProxy */ = {
+		18A77B272E7CC6C400032509 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 18A17FB62E7C8414008BE992 /* Project object */;
+			containerPortal = 18A77B0E2E7CC6C200032509 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 18A17FBD2E7C8414008BE992;
-			remoteInfo = Swift;
+			remoteGlobalIDString = 18A77B152E7CC6C200032509;
+			remoteInfo = SUMAQ;
 		};
-		18A17FD92E7C8419008BE992 /* PBXContainerItemProxy */ = {
+		18A77B312E7CC6C400032509 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 18A17FB62E7C8414008BE992 /* Project object */;
+			containerPortal = 18A77B0E2E7CC6C200032509 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 18A17FBD2E7C8414008BE992;
-			remoteInfo = Swift;
+			remoteGlobalIDString = 18A77B152E7CC6C200032509;
+			remoteInfo = SUMAQ;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18A17FBE2E7C8414008BE992 /* Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18A17FC12E7C8414008BE992 /* SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftApp.swift; sourceTree = "<group>"; };
-		18A17FC32E7C8414008BE992 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		18A17FC52E7C8418008BE992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18A17FC82E7C8418008BE992 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		18A17FCE2E7C8419008BE992 /* SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18A17FD22E7C8419008BE992 /* SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTests.swift; sourceTree = "<group>"; };
-		18A17FD82E7C8419008BE992 /* SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18A17FDC2E7C8419008BE992 /* SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITests.swift; sourceTree = "<group>"; };
-		18A17FDE2E7C8419008BE992 /* SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18A77B162E7CC6C200032509 /* SUMAQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUMAQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A77B192E7CC6C200032509 /* SUMAQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUMAQApp.swift; sourceTree = "<group>"; };
+		18A77B1B2E7CC6C200032509 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18A77B1D2E7CC6C300032509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A77B202E7CC6C300032509 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18A77B262E7CC6C400032509 /* SUMAQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUMAQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A77B2A2E7CC6C400032509 /* SUMAQTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUMAQTests.swift; sourceTree = "<group>"; };
+		18A77B302E7CC6C400032509 /* SUMAQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUMAQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A77B342E7CC6C400032509 /* SUMAQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUMAQUITests.swift; sourceTree = "<group>"; };
+		18A77B362E7CC6C400032509 /* SUMAQUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUMAQUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18A17FBB2E7C8414008BE992 /* Frameworks */ = {
+		18A77B132E7CC6C200032509 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18A17FCB2E7C8419008BE992 /* Frameworks */ = {
+		18A77B232E7CC6C400032509 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18A17FD52E7C8419008BE992 /* Frameworks */ = {
+		18A77B2D2E7CC6C400032509 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,142 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18A17FB52E7C8414008BE992 = {
+		18A77B0D2E7CC6C200032509 = {
 			isa = PBXGroup;
 			children = (
-				18A17FC02E7C8414008BE992 /* Swift */,
-				18A17FD12E7C8419008BE992 /* SwiftTests */,
-				18A17FDB2E7C8419008BE992 /* SwiftUITests */,
-				18A17FBF2E7C8414008BE992 /* Products */,
+				18A77B182E7CC6C200032509 /* SUMAQ */,
+				18A77B292E7CC6C400032509 /* SUMAQTests */,
+				18A77B332E7CC6C400032509 /* SUMAQUITests */,
+				18A77B172E7CC6C200032509 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18A17FBF2E7C8414008BE992 /* Products */ = {
+		18A77B172E7CC6C200032509 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18A17FBE2E7C8414008BE992 /* Swift.app */,
-				18A17FCE2E7C8419008BE992 /* SwiftTests.xctest */,
-				18A17FD82E7C8419008BE992 /* SwiftUITests.xctest */,
+				18A77B162E7CC6C200032509 /* SUMAQ.app */,
+				18A77B262E7CC6C400032509 /* SUMAQTests.xctest */,
+				18A77B302E7CC6C400032509 /* SUMAQUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18A17FC02E7C8414008BE992 /* Swift */ = {
+		18A77B182E7CC6C200032509 /* SUMAQ */ = {
 			isa = PBXGroup;
 			children = (
-				18A17FC12E7C8414008BE992 /* SwiftApp.swift */,
-				18A17FC32E7C8414008BE992 /* ContentView.swift */,
-				18A17FC52E7C8418008BE992 /* Assets.xcassets */,
-				18A17FC72E7C8418008BE992 /* Preview Content */,
+				18A77B192E7CC6C200032509 /* SUMAQApp.swift */,
+				18A77B1B2E7CC6C200032509 /* ContentView.swift */,
+				18A77B1D2E7CC6C300032509 /* Assets.xcassets */,
+				18A77B1F2E7CC6C300032509 /* Preview Content */,
 			);
-			path = Swift;
+			path = SUMAQ;
 			sourceTree = "<group>";
 		};
-		18A17FC72E7C8418008BE992 /* Preview Content */ = {
+		18A77B1F2E7CC6C300032509 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				18A17FC82E7C8418008BE992 /* Preview Assets.xcassets */,
+				18A77B202E7CC6C300032509 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		18A17FD12E7C8419008BE992 /* SwiftTests */ = {
+		18A77B292E7CC6C400032509 /* SUMAQTests */ = {
 			isa = PBXGroup;
 			children = (
-				18A17FD22E7C8419008BE992 /* SwiftTests.swift */,
+				18A77B2A2E7CC6C400032509 /* SUMAQTests.swift */,
 			);
-			path = SwiftTests;
+			path = SUMAQTests;
 			sourceTree = "<group>";
 		};
-		18A17FDB2E7C8419008BE992 /* SwiftUITests */ = {
+		18A77B332E7CC6C400032509 /* SUMAQUITests */ = {
 			isa = PBXGroup;
 			children = (
-				18A17FDC2E7C8419008BE992 /* SwiftUITests.swift */,
-				18A17FDE2E7C8419008BE992 /* SwiftUITestsLaunchTests.swift */,
+				18A77B342E7CC6C400032509 /* SUMAQUITests.swift */,
+				18A77B362E7CC6C400032509 /* SUMAQUITestsLaunchTests.swift */,
 			);
-			path = SwiftUITests;
+			path = SUMAQUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18A17FBD2E7C8414008BE992 /* Swift */ = {
+		18A77B152E7CC6C200032509 /* SUMAQ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18A17FE22E7C8419008BE992 /* Build configuration list for PBXNativeTarget "Swift" */;
+			buildConfigurationList = 18A77B3A2E7CC6C400032509 /* Build configuration list for PBXNativeTarget "SUMAQ" */;
 			buildPhases = (
-				18A17FBA2E7C8414008BE992 /* Sources */,
-				18A17FBB2E7C8414008BE992 /* Frameworks */,
-				18A17FBC2E7C8414008BE992 /* Resources */,
+				18A77B122E7CC6C200032509 /* Sources */,
+				18A77B132E7CC6C200032509 /* Frameworks */,
+				18A77B142E7CC6C200032509 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Swift;
-			productName = Swift;
-			productReference = 18A17FBE2E7C8414008BE992 /* Swift.app */;
+			name = SUMAQ;
+			productName = SUMAQ;
+			productReference = 18A77B162E7CC6C200032509 /* SUMAQ.app */;
 			productType = "com.apple.product-type.application";
 		};
-		18A17FCD2E7C8419008BE992 /* SwiftTests */ = {
+		18A77B252E7CC6C400032509 /* SUMAQTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18A17FE52E7C8419008BE992 /* Build configuration list for PBXNativeTarget "SwiftTests" */;
+			buildConfigurationList = 18A77B3D2E7CC6C400032509 /* Build configuration list for PBXNativeTarget "SUMAQTests" */;
 			buildPhases = (
-				18A17FCA2E7C8419008BE992 /* Sources */,
-				18A17FCB2E7C8419008BE992 /* Frameworks */,
-				18A17FCC2E7C8419008BE992 /* Resources */,
+				18A77B222E7CC6C400032509 /* Sources */,
+				18A77B232E7CC6C400032509 /* Frameworks */,
+				18A77B242E7CC6C400032509 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				18A17FD02E7C8419008BE992 /* PBXTargetDependency */,
+				18A77B282E7CC6C400032509 /* PBXTargetDependency */,
 			);
-			name = SwiftTests;
-			productName = SwiftTests;
-			productReference = 18A17FCE2E7C8419008BE992 /* SwiftTests.xctest */;
+			name = SUMAQTests;
+			productName = SUMAQTests;
+			productReference = 18A77B262E7CC6C400032509 /* SUMAQTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		18A17FD72E7C8419008BE992 /* SwiftUITests */ = {
+		18A77B2F2E7CC6C400032509 /* SUMAQUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18A17FE82E7C8419008BE992 /* Build configuration list for PBXNativeTarget "SwiftUITests" */;
+			buildConfigurationList = 18A77B402E7CC6C400032509 /* Build configuration list for PBXNativeTarget "SUMAQUITests" */;
 			buildPhases = (
-				18A17FD42E7C8419008BE992 /* Sources */,
-				18A17FD52E7C8419008BE992 /* Frameworks */,
-				18A17FD62E7C8419008BE992 /* Resources */,
+				18A77B2C2E7CC6C400032509 /* Sources */,
+				18A77B2D2E7CC6C400032509 /* Frameworks */,
+				18A77B2E2E7CC6C400032509 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				18A17FDA2E7C8419008BE992 /* PBXTargetDependency */,
+				18A77B322E7CC6C400032509 /* PBXTargetDependency */,
 			);
-			name = SwiftUITests;
-			productName = SwiftUITests;
-			productReference = 18A17FD82E7C8419008BE992 /* SwiftUITests.xctest */;
+			name = SUMAQUITests;
+			productName = SUMAQUITests;
+			productReference = 18A77B302E7CC6C400032509 /* SUMAQUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18A17FB62E7C8414008BE992 /* Project object */ = {
+		18A77B0E2E7CC6C200032509 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					18A17FBD2E7C8414008BE992 = {
+					18A77B152E7CC6C200032509 = {
 						CreatedOnToolsVersion = 15.3;
 					};
-					18A17FCD2E7C8419008BE992 = {
+					18A77B252E7CC6C400032509 = {
 						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 18A17FBD2E7C8414008BE992;
+						TestTargetID = 18A77B152E7CC6C200032509;
 					};
-					18A17FD72E7C8419008BE992 = {
+					18A77B2F2E7CC6C400032509 = {
 						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 18A17FBD2E7C8414008BE992;
+						TestTargetID = 18A77B152E7CC6C200032509;
 					};
 				};
 			};
-			buildConfigurationList = 18A17FB92E7C8414008BE992 /* Build configuration list for PBXProject "Swift" */;
+			buildConfigurationList = 18A77B112E7CC6C200032509 /* Build configuration list for PBXProject "SUMAQ" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 18A17FB52E7C8414008BE992;
-			productRefGroup = 18A17FBF2E7C8414008BE992 /* Products */;
+			mainGroup = 18A77B0D2E7CC6C200032509;
+			productRefGroup = 18A77B172E7CC6C200032509 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18A17FBD2E7C8414008BE992 /* Swift */,
-				18A17FCD2E7C8419008BE992 /* SwiftTests */,
-				18A17FD72E7C8419008BE992 /* SwiftUITests */,
+				18A77B152E7CC6C200032509 /* SUMAQ */,
+				18A77B252E7CC6C400032509 /* SUMAQTests */,
+				18A77B2F2E7CC6C400032509 /* SUMAQUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18A17FBC2E7C8414008BE992 /* Resources */ = {
+		18A77B142E7CC6C200032509 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A17FC92E7C8418008BE992 /* Preview Assets.xcassets in Resources */,
-				18A17FC62E7C8418008BE992 /* Assets.xcassets in Resources */,
+				18A77B212E7CC6C300032509 /* Preview Assets.xcassets in Resources */,
+				18A77B1E2E7CC6C300032509 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18A17FCC2E7C8419008BE992 /* Resources */ = {
+		18A77B242E7CC6C400032509 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18A17FD62E7C8419008BE992 /* Resources */ = {
+		18A77B2E2E7CC6C400032509 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18A17FBA2E7C8414008BE992 /* Sources */ = {
+		18A77B122E7CC6C200032509 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A17FC42E7C8414008BE992 /* ContentView.swift in Sources */,
-				18A17FC22E7C8414008BE992 /* SwiftApp.swift in Sources */,
+				18A77B1C2E7CC6C200032509 /* ContentView.swift in Sources */,
+				18A77B1A2E7CC6C200032509 /* SUMAQApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18A17FCA2E7C8419008BE992 /* Sources */ = {
+		18A77B222E7CC6C400032509 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A17FD32E7C8419008BE992 /* SwiftTests.swift in Sources */,
+				18A77B2B2E7CC6C400032509 /* SUMAQTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18A17FD42E7C8419008BE992 /* Sources */ = {
+		18A77B2C2E7CC6C400032509 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A17FDF2E7C8419008BE992 /* SwiftUITestsLaunchTests.swift in Sources */,
-				18A17FDD2E7C8419008BE992 /* SwiftUITests.swift in Sources */,
+				18A77B372E7CC6C400032509 /* SUMAQUITestsLaunchTests.swift in Sources */,
+				18A77B352E7CC6C400032509 /* SUMAQUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		18A17FD02E7C8419008BE992 /* PBXTargetDependency */ = {
+		18A77B282E7CC6C400032509 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18A17FBD2E7C8414008BE992 /* Swift */;
-			targetProxy = 18A17FCF2E7C8419008BE992 /* PBXContainerItemProxy */;
+			target = 18A77B152E7CC6C200032509 /* SUMAQ */;
+			targetProxy = 18A77B272E7CC6C400032509 /* PBXContainerItemProxy */;
 		};
-		18A17FDA2E7C8419008BE992 /* PBXTargetDependency */ = {
+		18A77B322E7CC6C400032509 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18A17FBD2E7C8414008BE992 /* Swift */;
-			targetProxy = 18A17FD92E7C8419008BE992 /* PBXContainerItemProxy */;
+			target = 18A77B152E7CC6C200032509 /* SUMAQ */;
+			targetProxy = 18A77B312E7CC6C400032509 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		18A17FE02E7C8419008BE992 /* Debug */ = {
+		18A77B382E7CC6C400032509 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +358,7 @@
 			};
 			name = Debug;
 		};
-		18A17FE12E7C8419008BE992 /* Release */ = {
+		18A77B392E7CC6C400032509 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,14 +414,14 @@
 			};
 			name = Release;
 		};
-		18A17FE32E7C8419008BE992 /* Debug */ = {
+		18A77B3B2E7CC6C400032509 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Swift/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SUMAQ/Preview Content\"";
 				DEVELOPMENT_TEAM = 3B2664J725;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -435,7 +435,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "swift-g12.Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = SUMAQ.SUMAQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -443,14 +443,14 @@
 			};
 			name = Debug;
 		};
-		18A17FE42E7C8419008BE992 /* Release */ = {
+		18A77B3C2E7CC6C400032509 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Swift/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SUMAQ/Preview Content\"";
 				DEVELOPMENT_TEAM = 3B2664J725;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -464,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "swift-g12.Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = SUMAQ.SUMAQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -472,7 +472,7 @@
 			};
 			name = Release;
 		};
-		18A17FE62E7C8419008BE992 /* Debug */ = {
+		18A77B3E2E7CC6C400032509 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -483,16 +483,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "swift-g12.SwiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = SUMAQ.SUMAQTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SUMAQ.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SUMAQ";
 			};
 			name = Debug;
 		};
-		18A17FE72E7C8419008BE992 /* Release */ = {
+		18A77B3F2E7CC6C400032509 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -503,16 +503,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "swift-g12.SwiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = SUMAQ.SUMAQTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SUMAQ.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SUMAQ";
 			};
 			name = Release;
 		};
-		18A17FE92E7C8419008BE992 /* Debug */ = {
+		18A77B412E7CC6C400032509 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -521,16 +521,16 @@
 				DEVELOPMENT_TEAM = 3B2664J725;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "swift-g12.SwiftUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = SUMAQ.SUMAQUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Swift;
+				TEST_TARGET_NAME = SUMAQ;
 			};
 			name = Debug;
 		};
-		18A17FEA2E7C8419008BE992 /* Release */ = {
+		18A77B422E7CC6C400032509 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -539,55 +539,55 @@
 				DEVELOPMENT_TEAM = 3B2664J725;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "swift-g12.SwiftUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = SUMAQ.SUMAQUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Swift;
+				TEST_TARGET_NAME = SUMAQ;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18A17FB92E7C8414008BE992 /* Build configuration list for PBXProject "Swift" */ = {
+		18A77B112E7CC6C200032509 /* Build configuration list for PBXProject "SUMAQ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18A17FE02E7C8419008BE992 /* Debug */,
-				18A17FE12E7C8419008BE992 /* Release */,
+				18A77B382E7CC6C400032509 /* Debug */,
+				18A77B392E7CC6C400032509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18A17FE22E7C8419008BE992 /* Build configuration list for PBXNativeTarget "Swift" */ = {
+		18A77B3A2E7CC6C400032509 /* Build configuration list for PBXNativeTarget "SUMAQ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18A17FE32E7C8419008BE992 /* Debug */,
-				18A17FE42E7C8419008BE992 /* Release */,
+				18A77B3B2E7CC6C400032509 /* Debug */,
+				18A77B3C2E7CC6C400032509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18A17FE52E7C8419008BE992 /* Build configuration list for PBXNativeTarget "SwiftTests" */ = {
+		18A77B3D2E7CC6C400032509 /* Build configuration list for PBXNativeTarget "SUMAQTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18A17FE62E7C8419008BE992 /* Debug */,
-				18A17FE72E7C8419008BE992 /* Release */,
+				18A77B3E2E7CC6C400032509 /* Debug */,
+				18A77B3F2E7CC6C400032509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18A17FE82E7C8419008BE992 /* Build configuration list for PBXNativeTarget "SwiftUITests" */ = {
+		18A77B402E7CC6C400032509 /* Build configuration list for PBXNativeTarget "SUMAQUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18A17FE92E7C8419008BE992 /* Debug */,
-				18A17FEA2E7C8419008BE992 /* Release */,
+				18A77B412E7CC6C400032509 /* Debug */,
+				18A77B422E7CC6C400032509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 18A17FB62E7C8414008BE992 /* Project object */;
+	rootObject = 18A77B0E2E7CC6C200032509 /* Project object */;
 }

@@ -1,14 +1,14 @@
 //
-//  SwiftTests.swift
-//  SwiftTests
+//  SUMAQTests.swift
+//  SUMAQTests
 //
 //  Created by Maria Alejandra Pinzon Roncancio on 18/09/25.
 //
 
 import XCTest
-@testable import Swift
+@testable import SUMAQ
 
-final class SwiftTests: XCTestCase {
+final class SUMAQTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Swift
+//  SUMAQ
 //
 //  Created by Maria Alejandra Pinzon Roncancio on 18/09/25.
 //

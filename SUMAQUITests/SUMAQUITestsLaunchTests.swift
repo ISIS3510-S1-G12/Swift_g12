@@ -1,13 +1,13 @@
 //
-//  SwiftUITestsLaunchTests.swift
-//  SwiftUITests
+//  SUMAQUITestsLaunchTests.swift
+//  SUMAQUITests
 //
 //  Created by Maria Alejandra Pinzon Roncancio on 18/09/25.
 //
 
 import XCTest
 
-final class SwiftUITestsLaunchTests: XCTestCase {
+final class SUMAQUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
