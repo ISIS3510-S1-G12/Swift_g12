@@ -9,16 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            ZStack {
+                Color(.systemBackground).ignoresSafeArea()
+
+                NavigationLink {
+                    ChoiceUserView()           // <- tu pantalla destino
+                } label: {
+                    Image("AppLogo")          // nombre EXACTO del asset
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 220)
+                        .contentShape(Rectangle()) // área táctil completa
+                }
+                .buttonStyle(.plain)           // sin estilo de botón azul
+            }
+            .toolbar(.hidden, for: .navigationBar) // opcional: oculta la barra
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
-}
+#Preview { ContentView() }
