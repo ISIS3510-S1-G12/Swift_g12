@@ -1,8 +1,7 @@
 import SwiftUI
 
 struct UploadMenuView: View {
-    var restaurantName: String = "Lucille"   // puedes pasarlo desde afuera
-
+    var restaurantName: String = "Lucille"   
     var body: some View {
         ZStack {
             Color(.systemBackground).ignoresSafeArea()
@@ -38,7 +37,6 @@ struct UploadMenuView: View {
                         .font(.system(size: 22, weight: .bold))
                         .foregroundColor(Palette.burgundy)
 
-                    // 4) Nombre del restaurante
                     Text(restaurantName)
                         .font(.custom("Montserrat-SemiBold", size: 24))
                         .foregroundColor(Palette.teal)
