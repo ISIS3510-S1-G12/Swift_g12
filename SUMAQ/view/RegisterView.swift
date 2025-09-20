@@ -22,7 +22,7 @@ struct RegisterView: View {
 
                 Text("WELCOME")
                     .font(.system(size: 40, weight: .heavy, design: .default))
-                    .foregroundColor(.sumaqPurple)
+                    .foregroundColor(Palette.purple)
                     .kerning(1)
 
                 VStack(alignment: .leading, spacing: 18) {
@@ -86,11 +86,11 @@ struct LabeledField: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             Text(title)
-                .font(.custom("Montserrat-SemiBold", size: 16)) // Label con Montserrat
-                .foregroundColor(.sumaqLabel)
+                .font(.custom("Montserrat-SemiBold", size: 16))
+                .foregroundColor(Palette.burgundy)          // <- antes .sumaqLabel
 
             TextField(placeholder, text: $text)
-                .font(.custom("Montserrat-Regular", size: 16)) // Texto del campo
+                .font(.custom("Montserrat-Regular", size: 16))
                 .keyboardType(keyboard)
                 .textInputAutocapitalization(autocap)
                 .autocorrectionDisabled(true)
@@ -102,7 +102,6 @@ struct LabeledField: View {
     }
 }
 
-
 struct LabeledSecureField: View {
     let title: String
     @Binding var text: String
@@ -111,11 +110,11 @@ struct LabeledSecureField: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             Text(title)
-                .font(.custom("Montserrat-SemiBold", size: 16)) // Label con Montserrat
-                .foregroundColor(.sumaqLabel)
+                .font(.custom("Montserrat-SemiBold", size: 16))
+                .foregroundColor(Palette.burgundy)          // <- antes .sumaqLabel
 
             SecureField(placeholder, text: $text)
-                .font(.custom("Montserrat-Regular", size: 16)) // Texto del campo
+                .font(.custom("Montserrat-Regular", size: 16))
                 .textInputAutocapitalization(.never)
                 .autocorrectionDisabled(true)
                 .padding(.horizontal, 16)
@@ -126,20 +125,7 @@ struct LabeledSecureField: View {
     }
 }
 
-extension Color {
-    static let sumaqPurple = Color(hexRGB: 0x742051)
-    static let sumaqLabel  = Color(hexRGB: 0x7A2A22) // marrón para labels
-
-    init(hexRGB: Int, alpha: Double = 1.0) {
-        self.init(
-            .sRGB,
-            red:   Double((hexRGB >> 16) & 0xff) / 255,
-            green: Double((hexRGB >>  8) & 0xff) / 255,
-            blue:  Double( hexRGB        & 0xff) / 255,
-            opacity: alpha
-        )
-    }
-}
+// MARK: - Botón primario usando la paleta
 
 struct PrimaryCapsuleButton: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
@@ -147,7 +133,7 @@ struct PrimaryCapsuleButton: ButtonStyle {
             .foregroundColor(.white)
             .background(
                 RoundedRectangle(cornerRadius: 14, style: .continuous)
-                    .fill(Color.sumaqPurple)
+                    .fill(Palette.purple)                   // <- usa Palette
             )
             .shadow(radius: configuration.isPressed ? 0 : 2, x: 0, y: configuration.isPressed ? 0 : 1)
             .opacity(configuration.isPressed ? 0.92 : 1.0)
@@ -155,12 +141,9 @@ struct PrimaryCapsuleButton: ButtonStyle {
     }
 }
 
-
-
 #Preview("RegisterView") {
     RegisterView()
         .environment(\.colorScheme, .light)
         .previewDevice("iPhone 15 Pro")
 }
-
 
