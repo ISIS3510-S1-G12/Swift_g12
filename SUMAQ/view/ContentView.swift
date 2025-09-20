@@ -14,17 +14,17 @@ struct ContentView: View {
                 Color(.systemBackground).ignoresSafeArea()
 
                 NavigationLink {
-                    ChoiceUserView()           // <- tu pantalla destino
+                    ChoiceUserView()
                 } label: {
-                    Image("AppLogo")          // nombre EXACTO del asset
+                    Image("AppLogo")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 220)
-                        .contentShape(Rectangle()) // área táctil completa
+                        .contentShape(Rectangle())
                 }
-                .buttonStyle(.plain)           // sin estilo de botón azul
+                .buttonStyle(.plain)
             }
-            .toolbar(.hidden, for: .navigationBar) // opcional: oculta la barra
+            .toolbar(.hidden, for: .navigationBar)
         }
     }
 }

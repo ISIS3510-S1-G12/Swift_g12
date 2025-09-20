@@ -96,8 +96,10 @@
 		18A77B182E7CC6C200032509 /* SUMAQ */ = {
 			isa = PBXGroup;
 			children = (
+				49CA12222E7E256700939F90 /* model */,
+				49CA12212E7E255B00939F90 /* view */,
+				49CA12202E7E252F00939F90 /* control */,
 				18A77B192E7CC6C200032509 /* SUMAQApp.swift */,
-				18A77B1B2E7CC6C200032509 /* ContentView.swift */,
 				18A77B1D2E7CC6C300032509 /* Assets.xcassets */,
 				18A77B1F2E7CC6C300032509 /* Preview Content */,
 				0EB15F8C2E7D0A0600CB69D5 /* ChoiceUserView.swift */,
@@ -128,6 +130,28 @@
 				18A77B362E7CC6C400032509 /* SUMAQUITestsLaunchTests.swift */,
 			);
 			path = SUMAQUITests;
+			sourceTree = "<group>";
+		};
+		49CA12202E7E252F00939F90 /* control */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = control;
+			sourceTree = "<group>";
+		};
+		49CA12212E7E255B00939F90 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18A77B1B2E7CC6C200032509 /* ContentView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		49CA12222E7E256700939F90 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

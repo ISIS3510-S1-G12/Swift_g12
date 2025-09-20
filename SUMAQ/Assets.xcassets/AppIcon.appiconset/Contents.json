@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "AppIcon1024x1024.png",
+      "filename" : "{blendModesourceOver,boundingBox{xmax0.9467329382896423,xmin0.061789773404598236,ymax0.9988207817077637,ymin0},croppingBox{xmax1,xmin0,ymax1,ymin0},effects[{attributes{color{colorspacesrg... (1024.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
