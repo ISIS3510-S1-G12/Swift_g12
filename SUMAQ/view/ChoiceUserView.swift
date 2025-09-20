@@ -24,7 +24,7 @@ struct ChoiceUserView: View {
             // Botones abajo
             VStack(spacing: 16) {
                 NavigationLink {
-                    UserHomeView()
+                    LogInAndRegisterView()
                 } label: {
                     Text("User")
                         .font(.system(size: 20, weight: .semibold))
@@ -36,7 +36,7 @@ struct ChoiceUserView: View {
                 }
 
                 NavigationLink {
-                    RestaurantHomeView()
+                    LogInAndRegisterView()
                 } label: {
                     Text("Restaurant")
                         .font(.system(size: 20, weight: .semibold))
@@ -58,14 +58,8 @@ struct ChoiceUserView: View {
     }
 }
 
-// Vistas destino de ejemplo
-struct UserHomeView: View {
-    var body: some View { Text("User Home") }
-}
 
-struct RestaurantHomeView: View {
-    var body: some View { Text("Restaurant Home") }
-}
+
 
 #Preview { ChoiceUserView() }
 
