@@ -13,14 +13,12 @@ struct ChoiceUserView: View {
 
     var body: some View {
         VStack {
-            // Logo arriba
-            Image("AppLogo")                // <-- usa el nombre exacto del asset
+            Image("AppLogo")
                 .resizable()
                 .scaledToFit()
                
 
-            Spacer() // empuja los botones hacia abajo
-
+            Spacer()
             // Botones abajo
             VStack(spacing: 16) {
                 NavigationLink {
@@ -50,8 +48,8 @@ struct ChoiceUserView: View {
             .padding(.horizontal, 24)
             .padding(.bottom, 24)
         }
-        .navigationTitle("")                       // sin título
-        .navigationBarTitleDisplayMode(.inline)    // mantiene el botón "Back"
+        .navigationTitle("")
+        .navigationBarTitleDisplayMode(.inline)
         .background(Color(.systemBackground).ignoresSafeArea())
         .toolbar(.hidden, for: .navigationBar)
 
