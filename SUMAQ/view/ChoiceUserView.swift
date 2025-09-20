@@ -13,18 +13,16 @@ struct ChoiceUserView: View {
 
     var body: some View {
         VStack {
-            // Logo arriba
-            Image("AppLogo")                // <-- usa el nombre exacto del asset
+            Image("AppLogo")
                 .resizable()
                 .scaledToFit()
                
 
-            Spacer() // empuja los botones hacia abajo
-
+            Spacer()
             // Botones abajo
             VStack(spacing: 16) {
                 NavigationLink {
-                    UserHomeView()
+                    LogInAndRegisterView()
                 } label: {
                     Text("User")
                         .font(.system(size: 20, weight: .semibold))
@@ -36,7 +34,7 @@ struct ChoiceUserView: View {
                 }
 
                 NavigationLink {
-                    RestaurantHomeView()
+                    LogInAndRegisterView()
                 } label: {
                     Text("Restaurant")
                         .font(.system(size: 20, weight: .semibold))
@@ -50,33 +48,17 @@ struct ChoiceUserView: View {
             .padding(.horizontal, 24)
             .padding(.bottom, 24)
         }
-        .navigationTitle("")                       // sin título
-        .navigationBarTitleDisplayMode(.inline)    // mantiene el botón "Back"
+        .navigationTitle("")
+        .navigationBarTitleDisplayMode(.inline)
         .background(Color(.systemBackground).ignoresSafeArea())
         .toolbar(.hidden, for: .navigationBar)
 
     }
 }
 
-// Vistas destino de ejemplo
-struct UserHomeView: View {
-    var body: some View { Text("User Home") }
-}
 
-struct RestaurantHomeView: View {
-    var body: some View { Text("Restaurant Home") }
-}
+
 
 #Preview { ChoiceUserView() }
 
-extension Color {
-    init(hex: UInt, alpha: Double = 1.0) {
-        self.init(
-            .sRGB,
-            red:   Double((hex >> 16) & 0xff) / 255,
-            green: Double((hex >>  8) & 0xff) / 255,
-            blue:  Double( hex        & 0xff) / 255,
-            opacity: alpha
-        )
-    }
-}
+
