@@ -15,6 +15,7 @@
 		18A77B2B2E7CC6C400032509 /* SUMAQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A77B2A2E7CC6C400032509 /* SUMAQTests.swift */; };
 		18A77B352E7CC6C400032509 /* SUMAQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A77B342E7CC6C400032509 /* SUMAQUITests.swift */; };
 		18A77B372E7CC6C400032509 /* SUMAQUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A77B362E7CC6C400032509 /* SUMAQUITestsLaunchTests.swift */; };
+		18D0F6922E7E3740002865C6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0F6912E7E3740002865C6 /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		18A77B302E7CC6C400032509 /* SUMAQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUMAQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A77B342E7CC6C400032509 /* SUMAQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUMAQUITests.swift; sourceTree = "<group>"; };
 		18A77B362E7CC6C400032509 /* SUMAQUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUMAQUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18D0F6912E7E3740002865C6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				18A77B1B2E7CC6C200032509 /* ContentView.swift */,
+				18D0F6912E7E3740002865C6 /* RegisterView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A77B1C2E7CC6C200032509 /* ContentView.swift in Sources */,
+				18D0F6922E7E3740002865C6 /* RegisterView.swift in Sources */,
 				0EB15F8D2E7D0A0700CB69D5 /* ChoiceUserView.swift in Sources */,
 				18A77B1A2E7CC6C200032509 /* SUMAQApp.swift in Sources */,
 			);
