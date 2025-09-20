@@ -78,6 +78,9 @@ struct SolidButton: View {
 
 
 
+
+
+
 #Preview("Usuario (Morado)") {
     LogInAndRegisterView(role: .user)
 }
