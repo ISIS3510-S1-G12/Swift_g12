@@ -31,6 +31,8 @@ struct RegisterView: View {
                 Text("Join SUMAQ")
                       .font(.system(size: 40, weight: .bold, design: .default))
                       .foregroundStyle(accentColor)
+                
+                
                       .kerning(1)
 
 
