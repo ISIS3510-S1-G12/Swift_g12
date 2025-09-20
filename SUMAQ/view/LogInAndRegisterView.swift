@@ -1,15 +1,8 @@
-//
-//  LogIn&RegisterView.swift
-//  SUMAQ
-//
-//  Created by Gabriela  Escobar Rojas on 19/09/25.
-//
 import SwiftUI
 
 struct LogInAndRegisterView: View {
     let role: UserType
 
-    // Colores por rol
     private var titleColor: Color {
         role == .user ? Palette.purple : Palette.teal
     }
@@ -19,41 +12,48 @@ struct LogInAndRegisterView: View {
     }
 
     var body: some View {
-        VStack(spacing: 28) {
-            // Logo
-            Image("AppLogo")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 120, height: 120)
-                .cornerRadius(24)
-                .shadow(radius: 4, y: 2)
-                .padding(.top, 40)
+        NavigationStack {
+            VStack(spacing: 28) {
+                Image("AppLogo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 120, height: 120)
+                    .cornerRadius(24)
+                    .shadow(radius: 4, y: 2)
+                    .padding(.top, 40)
 
-            Text("WELCOME")
-                .font(.custom("Mukta-Bold", size: 36))
-                .foregroundStyle(titleColor)
-                .tracking(1)
+                Text("WELCOME")
+                    .font(.custom("Mukta-Bold", size: 36))
+                    .foregroundStyle(titleColor)
+                    .tracking(1)
 
-            VStack(spacing: 18) {
-                SolidButton(title: "Log In",
-                            color: buttonColor,
-                            textColor: .white) {
+                VStack(spacing: 18) {
+
+                //    SolidNavLink(
+                 //       title: "Log In",
+                 //       color: buttonColor,
+                  //      textColor: .white
+                 //   ) {
+                 //       LoginView(role: role)
+                 //   }
+
+                    SolidNavLink(
+                        title: "Register",
+                        color: buttonColor,
+                        textColor: .white
+                    ) {
+                        RegisterView(role: role)
+                    }
                 }
+                .padding(.horizontal, 32)
 
-                SolidButton(title: "Register",
-                            color: buttonColor,
-                            textColor: .white) {
-                }
+                Spacer(minLength: 0)
             }
-            .padding(.horizontal, 32)
-
-            Spacer(minLength: 0)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color.white.ignoresSafeArea())
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.white.ignoresSafeArea())
     }
 }
-
 
 struct SolidButton: View {
     let title: String
@@ -75,6 +75,7 @@ struct SolidButton: View {
         .shadow(radius: 2, y: 1)
     }
 }
+
 
 
 #Preview("Usuario (Morado)") {
